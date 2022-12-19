@@ -2606,7 +2606,7 @@ input, select, textarea {
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 35%;
+		width: 25%;
 	}
 
 		#header > * {
@@ -2684,10 +2684,10 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		margin-left: 35%;
+		margin-left: 32.5%;
 		max-width: 54em;
 		padding: 8em 4em 4em 4em;
-		width: calc(100% - 35%);
+		width: calc(100% - 25%);
 	}
 
 		#main > section {
@@ -3221,3 +3221,15 @@ input, select, textarea {
 			}
 
 	}
+
+/* Adjust */
+	#main section#adjust-one {
+		display: flex;
+  		justify-content: space-between;
+	}
+
+	#main section#adjust-two {
+				border-top: solid 2px #efefef;
+				margin: 1em 0 0 0;
+				padding: 4em 0 0 0;
+			}
